@@ -1,0 +1,33 @@
+{% extends 'base.html'  %}
+{% load static %}
+{% static "images/projects" as baseUrl %}
+
+{% block content %}
+
+    <h1 style="align-content: center"> This is worlde</h1>
+
+    <img class="profile-image img-responsive pull-left" src="{{ rand.img.url }}" alt="James Lee" />
+
+
+    <div class="card" style="width: 18rem;">
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item">{{ abc }}</li>
+    <li class="list-group-item">A second item</li>
+    <li class="list-group-item">A third item</li>
+  </ul>
+</div>
+    <div>
+   <form action="worldle"  method="post">
+    {% csrf_token %}
+    <input type="text" name="text" placeholder="Guess the Flag"><br>
+
+    <input type="submit" name="Submit">
+
+</form>
+    </div>
+
+    <h1> your result is
+    {{ rst }}
+    </h1>
+
+{% endblock %}

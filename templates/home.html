@@ -1,0 +1,17 @@
+{% extends 'base.html'  %}
+{% block content %}
+<h1>Hello, {{variable}}</h1>
+
+<h3>what is the capital of {{ rand }}</h3>
+
+<form action="check" method="post">
+{% csrf_token %}
+
+<h1> What is the capital city of {{ rand }}</h1>
+your input: <input type="text" name="text1"><br>
+
+<input type="submit">
+<h1> {{ res }}</h1>
+</form>
+
+{% endblock %}

@@ -1,0 +1,26 @@
+<div id="templatemo_sidebar">
+        
+
+            
+
+            
+
+            
+            <div class="sidebar_box">
+            	<h3>Topics</h3>
+                {% for post in posts %}
+                <ul class="sidebar_menu">
+                    <li><a href="{% url 'post_detail' post.slug %}">» {{ post.title }} </a></li>
+
+       		  </ul>
+                {% endfor %}
+                
+          </div>
+            
+            
+
+  
+            
+
+        
+        </div>
