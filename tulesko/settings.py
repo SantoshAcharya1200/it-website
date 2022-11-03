@@ -44,6 +44,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'crispy_forms',
     'django.contrib.sitemaps',
+    "rest_framework",
 ]
 INSTALLED_APPS += ('django_summernote', )
 
