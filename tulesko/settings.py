@@ -95,11 +95,11 @@ DATABASES = {
     'default': {
 
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'telusko',
+        'NAME': 'railway',
         'USER': 'postgres',
-        'PASSWORD': 'wildanimal',
-        'HOST': 'localhost',
-        'PORT': '5432',
+        'PASSWORD': 'aFaeqQPCy07ESGPUSLa0',
+        'HOST': 'containers-us-west-114.railway.app',
+        'PORT': '7578',
 
     }
 }
