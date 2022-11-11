@@ -19,7 +19,7 @@
                     href="{% url 'management' %}">{{ post.category }}</a>, {{ post.created_on }} | By: <a
                     href="#">{{ post.author }}</a></div>
             <div class="image_wrapper"><a href="{% url 'mgmt_post_detail' post.slug %}" target="_parent"><img
-                    src="{{ post.img.url }}" alt="image 1"/></a></div>
+                    src="{% static '/images/projects/management.jpg' %}" alt="image 1"/></a></div>
             <p align="justify"> {{ post.content| safe |slice:":200" }}    </p>
 
 
