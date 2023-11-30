@@ -2,17 +2,17 @@
 ***
 
 # 🚀 Features
--Django 4.1 & Python 3.11
--Install via Pip
--Blog website
--Comments feature included
--Interated with [Postresql](https://www.postgresql.org/)
--Static files for media,css,js
--Integrated [Summernote WYSIWYG Editor](https://summernote.org/)
--Sitemap
--Styling with Bootstrap v5
--Debugging with django-debug-toolbar
--DRY forms with django-crispy-forms
+- Django 4.1 & Python 3.11
+- Install via Pip
+- Blog website
+- Comments feature included
+- Interated with [Postresql](https://www.postgresql.org/)
+- Static files for media,css,js
+- Integrated [Summernote WYSIWYG Editor](https://summernote.org/)
+- Sitemap
+- Styling with Bootstrap v5
+- Debugging with django-debug-toolbar
+- DRY forms with django-crispy-forms
 ***
 # 📖 Installation
 it-website can be installed via Pip. To start, clone the repo to your local computer and change into the proper directory.
